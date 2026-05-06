@@ -1,0 +1,1287 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="多人+多AI协作工作流案例分析与适用性判断 为「父母指南」团队当前协作模式（1用户+1协调者+2 Worker Agent+多个外部AI应用）寻找可借鉴的10个案例。   案例1：MetaGPT —— SOP驱动的软件公司模拟   维度 内容    核心机制 模拟完整软件公司组织架构，硬编码角色（产品经理→架构师→工程师→测试），按SOP（标准作业程序）流转交付物   团队结构 1个用户 + 多个">
+<meta property="og:type" content="article">
+<meta property="og:title" content="多人多AI协作案例分析与适用性判断">
+<meta property="og:url" content="http://example.com/2025/05/01/%E5%A4%9A%E4%BA%BA%E5%A4%9AAI%E5%8D%8F%E4%BD%9C%E6%A1%88%E4%BE%8B_%E5%88%86%E6%9E%90%E4%B8%8E%E9%80%82%E7%94%A8%E6%80%A7%E5%88%A4%E6%96%AD/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="多人+多AI协作工作流案例分析与适用性判断 为「父母指南」团队当前协作模式（1用户+1协调者+2 Worker Agent+多个外部AI应用）寻找可借鉴的10个案例。   案例1：MetaGPT —— SOP驱动的软件公司模拟   维度 内容    核心机制 模拟完整软件公司组织架构，硬编码角色（产品经理→架构师→工程师→测试），按SOP（标准作业程序）流转交付物   团队结构 1个用户 + 多个">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-05-01T02:00:00.000Z">
+<meta property="article:modified_time" content="2026-05-06T04:56:55.890Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="效率">
+<meta property="article:tag" content="AI协作">
+<meta property="article:tag" content="案例分析">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>多人多AI协作案例分析与适用性判断 - Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>Home</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>Archives</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>Categories</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>Tags</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>Search</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="Light"
+               data-label-dark="Dark">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">Dark</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="多人多AI协作案例分析与适用性判断"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-05-01 10:00" pubdate>
+          May 1, 2025 am
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.7k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          39 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">多人多AI协作案例分析与适用性判断</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="多人-多AI协作工作流案例分析与适用性判断"><a href="#多人-多AI协作工作流案例分析与适用性判断" class="headerlink" title="多人+多AI协作工作流案例分析与适用性判断"></a>多人+多AI协作工作流案例分析与适用性判断</h1><blockquote>
+<p>为「父母指南」团队当前协作模式（1用户+1协调者+2 Worker Agent+多个外部AI应用）寻找可借鉴的10个案例。</p>
+</blockquote>
+<hr>
+<h2 id="案例1：MetaGPT-——-SOP驱动的软件公司模拟"><a href="#案例1：MetaGPT-——-SOP驱动的软件公司模拟" class="headerlink" title="案例1：MetaGPT —— SOP驱动的软件公司模拟"></a>案例1：MetaGPT —— SOP驱动的软件公司模拟</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>模拟完整软件公司组织架构，硬编码角色（产品经理→架构师→工程师→测试），按SOP（标准作业程序）流转交付物</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个用户 + 多个AI Agent（产品经理、架构师、工程师、测试员等），完全自主运行</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>端到端软件开发、复杂工程化任务、需要生成高质量结构化文档（需求文档、架构图、代码）</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>输出极其稳定专业；角色边界清晰；自动产出工程文档；HumanEval&#x2F;MBPP通过率85%+</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>角色和流程刚性，难以动态调整；容易”幻觉”引用不存在的资源；GPT-4级别模型成本高；依赖Python asyncio</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>中</strong> — 你们现在做预研而非软件开发，SOP刚性不适合灵活多变的调研任务。但”角色固化+交付物标准”的思路可以借鉴</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例2：CrewAI-——-角色扮演式Agent团队"><a href="#案例2：CrewAI-——-角色扮演式Agent团队" class="headerlink" title="案例2：CrewAI —— 角色扮演式Agent团队"></a>案例2：CrewAI —— 角色扮演式Agent团队</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>每个Agent有明确的Role（角色）、Goal（目标）、Backstory（背景故事），通过任务依赖链协作，支持人在回路</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1-n个人类 + 多个Agent（研究者、写作者、审阅者等），支持串行&#x2F;并行&#x2F;层级流程</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>内容创作、市场分析、研究报告生成、任何需要”团队协作”的脑力工作</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>接近人类团队SOP，易于理解；灵活的任务分配；支持记忆和上下文共享；700+工具集成</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>对非标准流程支持弱；社区生态比LangChain小；复杂任务需要Python开发能力</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>高</strong> — 与你们现在的模式最像。建议借鉴：给每个Agent写Role Card（角色卡），固定记忆；用Task Chain管理依赖关系</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例3：AutoGen-x2F-AG2-——-对话式多Agent协作"><a href="#案例3：AutoGen-x2F-AG2-——-对话式多Agent协作" class="headerlink" title="案例3：AutoGen &#x2F; AG2 —— 对话式多Agent协作"></a>案例3：AutoGen &#x2F; AG2 —— 对话式多Agent协作</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>Agent之间像”群聊”一样对话协作，支持代码执行（Docker沙箱）、人在回路、多轮协商</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + 多个Agent在对话中自动协商分工，人类可随时介入</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>研究任务、代码调试、开放式问题探索、需要多轮讨论才能收敛的复杂问题</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>对话式协作最自然；代码执行能力强；支持人类随时打断和纠偏；灵活度高</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>容易陷入自反馈循环（token黑洞）；长期记忆脆弱；对话可能发散失控；需要外部治理层</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>中</strong> — 你们现在跨AI应用（ChatGPT&#x2F;Grok&#x2F;DeepSeek）协作，其实已经是”对话式”了。可以借鉴：给每个外部AI设定固定”开场白”，减少每次重复背景</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例4：LangGraph-——-图驱动的状态工作流"><a href="#案例4：LangGraph-——-图驱动的状态工作流" class="headerlink" title="案例4：LangGraph —— 图驱动的状态工作流"></a>案例4：LangGraph —— 图驱动的状态工作流</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>把Agent协作建模为”状态图”，节点&#x3D;Agent&#x2F;工具，边&#x3D;状态流转，支持条件分支、循环、持久化</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + 多个Agent节点，人类在关键决策点通过条件路由介入</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>复杂业务流程、需要精确控制每一步的合规&#x2F;金融场景、长周期任务（跨天&#x2F;周）</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>可视化调试；精确控制执行路径；支持PostgreSQL状态持久化（周五暂停→周一恢复）；错误恢复机制强</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>学习曲线陡峭；需要技术背景；前期设计成本高；不适合快速迭代的创意工作</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>低</strong> — 你们现在预研工作偏创意&#x2F;调研，不需要如此刚性的流程控制。但”状态持久化”思路有价值：预研中间产物写入Obsidian，避免跨session失忆</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例5：OpenClaw（你们现在的模式）——-Coordinator-Dispatcher"><a href="#案例5：OpenClaw（你们现在的模式）——-Coordinator-Dispatcher" class="headerlink" title="案例5：OpenClaw（你们现在的模式）—— Coordinator-Dispatcher"></a>案例5：OpenClaw（你们现在的模式）—— Coordinator-Dispatcher</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>1个Coordinator（Kimi）接收用户指令→评估&#x2F;拆解→分发给不同Worker Agent（黄油小熊、逻辑青年等）→收集结果→交付用户</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1用户 + 1 Coordinator + 2 Worker（电脑端&#x2F;手机端）+ N个外部AI应用（ChatGPT&#x2F;Grok&#x2F;DeepSeek&#x2F;Perplexity）</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>项目预研、多源信息整合、跨平台操作、需要”人类判断+AI执行”的混合工作</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>人类始终掌控方向；不同Worker可专精不同领域；外部AI应用即插即用；灵活度高</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>Worker跨session失忆；Coordinator可能过载；外部AI应用结果需要人工搬运；缺乏统一审阅环节</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>基准线</strong> — 你们已经在用。优化方向：加审阅Agent、固定角色记忆、任务分级</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例6：Anthropic多Agent研究系统-——-分层协调者模式"><a href="#案例6：Anthropic多Agent研究系统-——-分层协调者模式" class="headerlink" title="案例6：Anthropic多Agent研究系统 —— 分层协调者模式"></a>案例6：Anthropic多Agent研究系统 —— 分层协调者模式</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>Coordinator Agent负责拆解查询为子任务→分配给子Agent→收集结果→综合输出。按复杂度调配资源（简单1个Agent，复杂10+个）</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + 1 Coordinator + N个子Agent（搜索、分析、写作等），人类在关键节点确认</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>深度研究、复杂报告生成、需要多源验证的信息整合</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>按复杂度动态分配资源；子任务描述标准化（目标+格式+边界）；避免简单查询过度消耗</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>Coordinator是单点瓶颈；子Agent可能重复工作；需要精细的提示工程</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>高</strong> — 你们现在Kimi就是Coordinator。建议借鉴：①任务复杂度分级（轻&#x2F;中&#x2F;重）②子任务描述标准化模板 ③简单任务不过度分配资源</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例7：华为CodeArts-Doer-——-多Agent软件工厂"><a href="#案例7：华为CodeArts-Doer-——-多Agent软件工厂" class="headerlink" title="案例7：华为CodeArts Doer —— 多Agent软件工厂"></a>案例7：华为CodeArts Doer —— 多Agent软件工厂</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>模拟完整软件工厂：团队助手（Timmy）→产品助手（Pony）→开发助手（David）→测试助手（Cindy），每步需人类确认</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + 多个专业Agent，串行执行，每阶段人类确认后才流转</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>软件开发全生命周期、需求明确的工程化项目</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>每个阶段专业对口；人在回路避免跑偏；端到端自动化；减少跨部门沟通成本</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>流程极其刚性；不适合创意&#x2F;调研类工作；人类确认点过多可能拖慢节奏</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>低</strong> — 你们不做软件开发。但”阶段确认”机制可借鉴：复杂预研拆阶段，每阶段用户点头再继续</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例8：AI-Conductor（AI指挥家）——-人类指挥多个AI"><a href="#案例8：AI-Conductor（AI指挥家）——-人类指挥多个AI" class="headerlink" title="案例8：AI Conductor（AI指挥家）—— 人类指挥多个AI"></a>案例8：AI Conductor（AI指挥家）—— 人类指挥多个AI</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>人类作为”指挥家”，明确指定每个AI的角色和任务，AI之间不直接通信，通过人类中转</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + N个AI工具（每个专精一个领域），人类负责信息整合和决策</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>个人创作者、小团队、需要高度人类判断的创意工作</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>人类始终掌控；AI工具可自由替换（今天用ChatGPT明天用Claude）；成本低；灵活度最高</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>人类成为信息中转站，负担重；AI之间不共享上下文；容易信息丢失；效率受限于人类处理速度</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>高</strong> — 这就是你们现在的模式（用户→Kimi→各AI应用）。优化方向：减少人工搬运——让Kimi自动汇总外部AI结果，而不是用户自己复制粘贴</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例9：大小模型动态协作-——-异构模型分工"><a href="#案例9：大小模型动态协作-——-异构模型分工" class="headerlink" title="案例9：大小模型动态协作 —— 异构模型分工"></a>案例9：大小模型动态协作 —— 异构模型分工</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>简单任务用小模型（本地&#x2F;轻量），复杂任务用大模型（GPT-4&#x2F;Claude），动态路由+隐私保护</td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + 多个不同能力的AI（大小模型混合），Router自动分配任务</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>成本敏感型应用、需要隐私保护的场景、大规模部署</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>成本优化（60%查询可用小模型）；响应速度更快；隐私数据本地处理；经济性好</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>需要精细的路由逻辑；模型能力差异大，路由错误会降质；实现复杂</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>中</strong> — 你们现在所有外部AI都用大模型，成本不低。但预研阶段精度优先，不必过早优化。未来规模化后可考虑：简单搜索用小模型，深度分析用大模型</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="案例10：Human-in-the-Loop-混合团队-——-关键决策必审批"><a href="#案例10：Human-in-the-Loop-混合团队-——-关键决策必审批" class="headerlink" title="案例10：Human-in-the-Loop 混合团队 —— 关键决策必审批"></a>案例10：Human-in-the-Loop 混合团队 —— 关键决策必审批</h2><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>核心机制</strong></td>
+<td>Agent自主执行，但在关键节点（花钱&#x2F;对外发布&#x2F;代码提交）自动暂停，等待人类<code>/approve</code></td>
+</tr>
+<tr>
+<td><strong>团队结构</strong></td>
+<td>1个人类 + N个Agent，人类是”最终审批者”而非”操作员”</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>任何有风险的操作、需要合规的场景、AI能力边界不确定的任务</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>安全性高；避免Agent失控；人类只关注关键决策；责任清晰</td>
+</tr>
+<tr>
+<td><strong>局限</strong></td>
+<td>审批等待可能拖慢节奏；需要定义清晰的”关键节点”列表；人类响应速度成瓶颈</td>
+</tr>
+<tr>
+<td><strong>适用性判断</strong></td>
+<td><strong>高</strong> — 你们现在预研阶段风险低，但一旦进入”推代码&#x2F;发文章&#x2F;对外发布”阶段，必须加审批环节。建议现在就开始定义：哪些操作需要用户确认？</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="汇总对比表"><a href="#汇总对比表" class="headerlink" title="汇总对比表"></a>汇总对比表</h2><table>
+<thead>
+<tr>
+<th>案例</th>
+<th>核心机制</th>
+<th>人:AI比例</th>
+<th>灵活度</th>
+<th>适用性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MetaGPT</td>
+<td>SOP软件公司</td>
+<td>1:N</td>
+<td>低</td>
+<td>中</td>
+</tr>
+<tr>
+<td>CrewAI</td>
+<td>角色扮演团队</td>
+<td>1:N</td>
+<td>中</td>
+<td><strong>高</strong></td>
+</tr>
+<tr>
+<td>AutoGen</td>
+<td>对话式协作</td>
+<td>1:N</td>
+<td>高</td>
+<td>中</td>
+</tr>
+<tr>
+<td>LangGraph</td>
+<td>图驱动工作流</td>
+<td>1:N</td>
+<td>低</td>
+<td>低</td>
+</tr>
+<tr>
+<td>OpenClaw（你们）</td>
+<td>Coordinator-Dispatcher</td>
+<td>1:1:N</td>
+<td>高</td>
+<td>基准</td>
+</tr>
+<tr>
+<td>Anthropic研究系统</td>
+<td>分层协调者</td>
+<td>1:1:N</td>
+<td>中</td>
+<td><strong>高</strong></td>
+</tr>
+<tr>
+<td>CodeArts Doer</td>
+<td>软件工厂流水线</td>
+<td>1:N</td>
+<td>低</td>
+<td>低</td>
+</tr>
+<tr>
+<td>AI Conductor</td>
+<td>人类指挥家</td>
+<td>1:N</td>
+<td><strong>最高</strong></td>
+<td><strong>高</strong></td>
+</tr>
+<tr>
+<td>大小模型动态协作</td>
+<td>异构路由</td>
+<td>1:N</td>
+<td>中</td>
+<td>中</td>
+</tr>
+<tr>
+<td>Human-in-the-Loop</td>
+<td>关键审批</td>
+<td>1:N</td>
+<td>中</td>
+<td><strong>高</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="对你们的直接建议"><a href="#对你们的直接建议" class="headerlink" title="对你们的直接建议"></a>对你们的直接建议</h2><h3 id="立即可做（本周）"><a href="#立即可做（本周）" class="headerlink" title="立即可做（本周）"></a>立即可做（本周）</h3><ol>
+<li><p><strong>给每个Agent写Role Card</strong>（借鉴CrewAI）</p>
+<ul>
+<li>黄油小熊：”预研执行者，负责搜索、整理、输出Markdown”</li>
+<li>逻辑青年：”审阅者，负责检查信息密度、结构完整性、逻辑一致性”</li>
+<li>存到GitHub或Obsidian，每次启动自动加载</li>
+</ul>
+</li>
+<li><p><strong>任务复杂度分级</strong>（借鉴Anthropic）</p>
+<ul>
+<li><code>[轻]</code>：直接出结果（搜1个定义、查1个数据）</li>
+<li><code>[中]</code>：先出大纲→用户确认→出完整版</li>
+<li><code>[重]</code>：拆阶段交付，每阶段用户确认</li>
+</ul>
+</li>
+<li><p><strong>Human-in-the-Loop清单</strong>（借鉴安全最佳实践）</p>
+<ul>
+<li>需要审批的操作：GitHub push、对外发布文章、发送消息给用户以外的人、删除文件</li>
+</ul>
+</li>
+</ol>
+<h3 id="中期可做（本月）"><a href="#中期可做（本月）" class="headerlink" title="中期可做（本月）"></a>中期可做（本月）</h3><ol start="4">
+<li><p><strong>审阅者Agent正式化</strong>（借鉴CrewAI+MetaGPT）</p>
+<ul>
+<li>所有复杂预研产出，先过逻辑青年审阅</li>
+<li>审阅标准写成Checklist（信息密度？结构完整？有无AI幻觉？来源可验证？）</li>
+</ul>
+</li>
+<li><p><strong>减少人工搬运</strong>（优化AI Conductor模式）</p>
+<ul>
+<li>现在用户需要把ChatGPT&#x2F;Grok结果复制给Kimi，理想是Kimi直接调用外部AI并汇总</li>
+<li>过渡方案：每个外部AI对话结束时，用固定格式输出，方便Kimi解析</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="参考来源"><a href="#参考来源" class="headerlink" title="参考来源"></a>参考来源</h2><ul>
+<li>MetaGPT: FoundationAgents&#x2F;MetaGPT GitHub, SOP-Driven Multi-Agent Collaboration</li>
+<li>CrewAI: crewAI.com, Role-based agent design</li>
+<li>AutoGen: Microsoft Agent Framework, Conversational multi-agent</li>
+<li>LangGraph: LangChain graph orchestration, Stateful workflows</li>
+<li>Anthropic: Claude Research multi-agent system blog</li>
+<li>华为CodeArts Doer: HDC 2025 keynote</li>
+<li>大小模型协作: arxiv 2604.17827, Dynamic Collaboration Between Small and Large Language Models</li>
+</ul>
+<hr>
+<blockquote>
+<p><strong>核心结论</strong>：你们现在的Coordinator-Dispatcher模式已经是先进实践。最值得借鉴的是<strong>CrewAI的角色固化</strong>、<strong>Anthropic的复杂度分级</strong>、<strong>Human-in-the-Loop的安全审批</strong>。不需要切换框架，只需要在你们现有流程上加这3个机制。</p>
+</blockquote>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%88%86%E6%9E%90/" class="category-chain-item">分析</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E6%95%88%E7%8E%87/" class="print-no-link">#效率</a>
+      
+        <a href="/tags/AI%E5%8D%8F%E4%BD%9C/" class="print-no-link">#AI协作</a>
+      
+        <a href="/tags/%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90/" class="print-no-link">#案例分析</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>多人多AI协作案例分析与适用性判断</div>
+      <div>http://example.com/2025/05/01/多人多AI协作案例_分析与适用性判断/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>John Doe</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>May 1, 2025</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2025/05/01/%E5%A4%9AAgent%E5%8D%8F%E4%BD%9C_%E6%95%88%E7%8E%87%E5%8F%98%E7%8E%B0_%E8%BF%90%E8%90%A5%E6%80%9D%E8%B7%AF_%E6%95%B4%E7%90%86%E6%8A%A5%E5%91%8A/" title="多Agent协作·效率变现·运营思路">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">多Agent协作·效率变现·运营思路</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2025/05/01/%E6%89%8B%E6%9C%BA%E7%AB%AFApp%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/" title="手机端App操作手册 v3.0">
+                        <span class="hidden-mobile">手机端App操作手册 v3.0</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    function isExpandAllEnabled() {
+      return CONFIG.toc && CONFIG.toc.expand_all === true;
+    }
+    function expandAllToc() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .tocbot-is-collapsed').removeClass('tocbot-is-collapsed');
+    }
+    function updateTocToggle($li, $childList) {
+      var $toggle = $li.children('.toc-toggle');
+      if ($toggle.length === 0) { return; }
+      var collapsed = $childList.hasClass('tocbot-is-collapsed');
+      $toggle
+        .toggleClass('toc-toggle-collapsed', collapsed)
+        .toggleClass('toc-toggle-expanded', !collapsed);
+    }
+    function bindTocToggle() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .toc-list-item').each(function() {
+        var $li = jQuery(this);
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) {
+          if ($li.children('.toc-toggle').length === 0) {
+            $li.prepend('<span class="toc-toggle toc-toggle-placeholder" aria-hidden="true">›</span>');
+          }
+          return;
+        }
+
+        if ($li.children('.toc-toggle').length === 0) {
+          $li.prepend('<span class="toc-toggle toc-toggle-expanded" aria-hidden="true">›</span>');
+        }
+        updateTocToggle($li, $childList);
+      });
+      jQuery('#toc-body').off('click.tocToggle').on('click.tocToggle', '.toc-toggle', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var $li = jQuery(this).parent('.toc-list-item');
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) { return; }
+        $childList.toggleClass('tocbot-is-collapsed');
+        updateTocToggle($li, $childList);
+      });
+      if (!window.__tocToggleObserver) {
+        window.__tocToggleObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type !== 'attributes' || mutation.attributeName !== 'class') { return; }
+            var $list = jQuery(mutation.target);
+            var $li = $list.parent('.toc-list-item');
+            if ($li.length === 0) { return; }
+            updateTocToggle($li, $list);
+          });
+        });
+        jQuery('#toc-body ol').each(function() {
+          window.__tocToggleObserver.observe(this, { attributes: true });
+        });
+      }
+    }
+    var tocConfig = Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc);
+    if (isExpandAllEnabled()) {
+      tocConfig.collapseDepth = 6;
+    }
+    window.tocbot.init(tocConfig);
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+    expandAllToc();
+    bindTocToggle();
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+        expandAllToc();
+        bindTocToggle();
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

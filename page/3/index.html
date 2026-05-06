@@ -1,0 +1,1105 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/3/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>Home</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>Archives</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>Categories</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>Tags</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>Search</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="Light"
+               data-label-dark="Dark">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">Dark</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<h1 style="display: none">Hexo</h1>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E5%8D%8F%E4%BD%9C%E6%B5%81%E7%A8%8B%E6%94%B9%E8%BF%9B%E6%96%B9%E6%A1%88/" target="_self">
+          协作流程改进方案 v1.0
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E5%8D%8F%E4%BD%9C%E6%B5%81%E7%A8%8B%E6%94%B9%E8%BF%9B%E6%96%B9%E6%A1%88/" target="_self">
+        <div>
+          多人+多AI协作流程改进方案 v1.0 基于10个案例分析，在我们现有Coordinator-Dispatcher模式上加3个机制目标：减少返工、提高效率、降低协调者负担   一、现状诊断当前流程： 123用户发任务 → Kimi拆解 → 派给Worker → Worker执行 → Kimi汇总 → 交付用户                    ↑________________________
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%B7%A5%E5%85%B7/" class="category-chain-item">工具</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%95%88%E7%8E%87/">#效率</a>
+            
+              <a href="/tags/%E5%8D%8F%E4%BD%9C/">#协作</a>
+            
+              <a href="/tags/%E6%B5%81%E7%A8%8B%E4%BC%98%E5%8C%96/">#流程优化</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E5%A4%9AAgent%E5%8D%8F%E4%BD%9C_%E6%95%88%E7%8E%87%E5%8F%98%E7%8E%B0_%E8%BF%90%E8%90%A5%E6%80%9D%E8%B7%AF_%E6%95%B4%E7%90%86%E6%8A%A5%E5%91%8A/" target="_self">
+          多Agent协作·效率变现·运营思路
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E5%A4%9AAgent%E5%8D%8F%E4%BD%9C_%E6%95%88%E7%8E%87%E5%8F%98%E7%8E%B0_%E8%BF%90%E8%90%A5%E6%80%9D%E8%B7%AF_%E6%95%B4%E7%90%86%E6%8A%A5%E5%91%8A/" target="_self">
+        <div>
+          多智能体协作·效率玩法·知识变现·社交运营 —— 思路整理报告 基于互联网最新实践，为「父母指南」团队的多Agent工作流寻找可借鉴的玩法和变现路径。   一、效率玩法：多Agent协作的进阶模式1.1 你们现在的模式是什么水平？你们现在的协作方式，在互联网上属于**”Coordinator-Dispatcher 模式”**——Kimi作为中央调度器，向不同专精Agent派发任务，预研与执行分离。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%B1%87%E6%80%BB/" class="category-chain-item">汇总</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%95%88%E7%8E%87/">#效率</a>
+            
+              <a href="/tags/%E5%8F%98%E7%8E%B0/">#变现</a>
+            
+              <a href="/tags/%E8%BF%90%E8%90%A5/">#运营</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E5%A4%9A%E4%BA%BA%E5%A4%9AAI%E5%8D%8F%E4%BD%9C%E6%A1%88%E4%BE%8B_%E5%88%86%E6%9E%90%E4%B8%8E%E9%80%82%E7%94%A8%E6%80%A7%E5%88%A4%E6%96%AD/" target="_self">
+          多人多AI协作案例分析与适用性判断
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E5%A4%9A%E4%BA%BA%E5%A4%9AAI%E5%8D%8F%E4%BD%9C%E6%A1%88%E4%BE%8B_%E5%88%86%E6%9E%90%E4%B8%8E%E9%80%82%E7%94%A8%E6%80%A7%E5%88%A4%E6%96%AD/" target="_self">
+        <div>
+          多人+多AI协作工作流案例分析与适用性判断 为「父母指南」团队当前协作模式（1用户+1协调者+2 Worker Agent+多个外部AI应用）寻找可借鉴的10个案例。   案例1：MetaGPT —— SOP驱动的软件公司模拟   维度 内容    核心机制 模拟完整软件公司组织架构，硬编码角色（产品经理→架构师→工程师→测试），按SOP（标准作业程序）流转交付物   团队结构 1个用户 + 多个
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%88%86%E6%9E%90/" class="category-chain-item">分析</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%95%88%E7%8E%87/">#效率</a>
+            
+              <a href="/tags/AI%E5%8D%8F%E4%BD%9C/">#AI协作</a>
+            
+              <a href="/tags/%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90/">#案例分析</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E6%89%8B%E6%9C%BA%E7%AB%AFApp%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/" target="_self">
+          手机端App操作手册 v3.0
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E6%89%8B%E6%9C%BA%E7%AB%AFApp%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/" target="_self">
+        <div>
+          手机端 App 操作手册 v3.0（完整版） 累计测试 82 个 App，覆盖 4 个桌面屏幕更新日期：2025-04-30   一、完全可操作（33个）   App 类型 能做什么    Chrome 浏览器 导航、搜索、填表单   Claude AI聊天 完整对话流   ChatGPT AI聊天 完整对话流   Perplexity AI搜索 搜索、总结、建议   Grok AI聊天 对话、模
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%B7%A5%E5%85%B7/" class="category-chain-item">工具</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/App%E6%B5%8B%E8%AF%95/">#App测试</a>
+            
+              <a href="/tags/%E6%89%8B%E6%9C%BA%E7%AB%AF/">#手机端</a>
+            
+              <a href="/tags/%E5%85%BC%E5%AE%B9%E6%80%A7/">#兼容性</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%85%A8%E9%83%A8%E6%A0%B8%E5%BF%83%E7%BB%93%E8%AE%BA%E6%B1%87%E6%80%BB/" target="_self">
+          「父母指南」全部核心结论汇总
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%85%A8%E9%83%A8%E6%A0%B8%E5%BF%83%E7%BB%93%E8%AE%BA%E6%B1%87%E6%80%BB/" target="_self">
+        <div>
+          「父母指南」项目 · 全部核心结论汇总 综合来源：内部产品分析 + 手机端AI应用交叉验证项目阶段：预研完成，等待MVP开发启动   一、产品定位小程序名称：「新手父母持证上岗指南」（简写”父母指南”）核心功能：父母育儿风格测评工具一句话卖点：帮焦虑的父母看懂自己的育儿方式目标用户：0-18岁孩子的家长（焦虑、自我认知需求强）技术栈：微信小程序 + Taro 3.x + Canvas 2D（海报生
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%B1%87%E6%80%BB/" class="category-chain-item">汇总</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/">#项目汇总</a>
+            
+              <a href="/tags/%E6%A0%B8%E5%BF%83%E7%BB%93%E8%AE%BA/">#核心结论</a>
+            
+              <a href="/tags/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97/">#父母指南</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%AE%8C%E6%95%B4%E9%A2%98%E5%BA%93%E6%94%B6%E5%BD%95/" target="_self">
+          完整题库收录 v3.1
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%AE%8C%E6%95%B4%E9%A2%98%E5%BA%93%E6%94%B6%E5%BD%95/" target="_self">
+        <div>
+          「父母指南」完整题库收录文件 v3.1（最终交付版） 生成时间：2025-04-30题目总数：28道覆盖年龄段：0-3岁（7道）、4-6岁（7道）、7-12岁（7道）、13-18岁（7道）维度体系：A情绪回应 &#x2F; B规则锚定 &#x2F; C探索追问 &#x2F; D行动果断版本说明：v3.1 —— 基于v3.0 + 4道多孩场景题补充（q025-q028）核心改进：  C类碎片句化（省
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E9%A2%98%E5%BA%93/" class="category-chain-item">题库</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%A2%98%E5%BA%93/">#题库</a>
+            
+              <a href="/tags/%E5%AE%8C%E6%95%B4%E6%94%B6%E5%BD%95/">#完整收录</a>
+            
+              <a href="/tags/%E8%82%B2%E5%84%BF%E6%B5%8B%E8%AF%84/">#育儿测评</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/" target="_self">
+          心路历程优化方案 v1.0
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/" target="_self">
+        <div>
+          「父母指南」小程序用户心路历程 · 优化方案 v1.0 综合来源：电脑端产品分析 + 手机端微信生态推演题目数：28道（4维度 × 4年龄段）画像体系：16种育儿风格核心定位：帮焦虑的父母看懂自己的育儿方式   一、当前流程诊断   环节 当前设计 核心问题 流失风险    裂变入口 “快来看看你是个什么类型的父母” 标签化表述，用户抗拒被定义 点击率低   起始页 填信息（婚姻&#x2F;是否有
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/" class="category-chain-item">心路历程</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">#用户体验</a>
+            
+              <a href="/tags/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/">#心路历程</a>
+            
+              <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">#小程序</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/" target="_self">
+          插画风格测试报告
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/" target="_self">
+        <div>
+          「父母指南」小程序插画风格测试报告 测试日期：2025-04-30测试方法：AI图片生成工具，同一育儿场景×5种风格测试场景：3岁孩子在超市地上打滚哭闹，妈妈站在旁边用途：为每道测评题配一张场景插画，降低阅读疲劳   一、五种风格对比   风格 文件 视觉特点 温暖度 辨识度 小程序适配 MVP推荐    手绘卡通 插画风格测试_手绘卡通.png 圆润线条、可爱表情、柔和色调 ★★★★★ ★★★★
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%AE%BE%E8%AE%A1/" class="category-chain-item">设计</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%8F%92%E7%94%BB/">#插画</a>
+            
+              <a href="/tags/%E8%AE%BE%E8%AE%A1/">#设计</a>
+            
+              <a href="/tags/%E8%A7%86%E8%A7%89/">#视觉</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/" target="_self">
+          插画风格研究报告
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/" target="_self">
+        <div>
+          「父母指南」小程序插画风格类型研究报告 为28道测评题配图的场景插画风格选型指南，含MVP推荐方案与AI生成提示词模板。   一、微信小程序图片约束（先了解边界）   约束项 限制 对插画的影响    小程序包大小 2MB（整个小程序代码+资源） 28张图不能全部打包，需CDN外链或按需加载   单张图片建议 ≤200KB 复杂细节（水彩晕染、3D渲染）难以压缩到这个大小   推荐格式 WebP
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%AE%BE%E8%AE%A1/" class="category-chain-item">设计</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%8F%92%E7%94%BB/">#插画</a>
+            
+              <a href="/tags/%E8%AE%BE%E8%AE%A1/">#设计</a>
+            
+              <a href="/tags/%E7%A0%94%E7%A9%B6/">#研究</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E8%A7%86%E8%A7%89%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90/" target="_self">
+          插画风格视觉对比分析
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/05/01/%E7%88%B6%E6%AF%8D%E6%8C%87%E5%8D%97_%E6%8F%92%E7%94%BB%E9%A3%8E%E6%A0%BC%E8%A7%86%E8%A7%89%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90/" target="_self">
+        <div>
+          「父母指南」插画风格视觉对比分析报告 基于5张AI生成测试图（同一场景：超市孩子哭闹）的逐图视觉评价与MVP选型建议。   一、逐图视觉分析1. 手绘卡通    维度 评分 说明    情绪温度 ⭐⭐⭐⭐⭐ 很温暖 圆润的人物线条、腮红、委屈表情，自带治愈感   场景还原度 ⭐⭐⭐ 一般 超市货架有但商品模糊，更像”示意”而非”真实超市”   人物一致性潜力 ⭐⭐⭐⭐ 高 人物特征鲜明（丸子头妈妈
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-05-01 10:00" pubdate>
+              2025-05-01
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%AE%BE%E8%AE%A1/" class="category-chain-item">设计</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%8F%92%E7%94%BB/">#插画</a>
+            
+              <a href="/tags/%E8%A7%86%E8%A7%89/">#视觉</a>
+            
+              <a href="/tags/%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90/">#对比分析</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/2/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#board">4</a><a class="page-number" href="/page/5/#board">5</a><a class="extend next" rel="next" href="/page/4/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
